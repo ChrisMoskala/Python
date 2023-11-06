@@ -1,0 +1,13 @@
+Umieść swój projekt w systemie kontroli wersji
+Pandas
+pobierz dane: https://huggingface.co/datasets/imodels/credit-card
+sprawdź czy dane nie zawierają duplikatów
+oblicz korelację pomiędzy wiekiem i limitem kredytu
+dodaj kolumnę będącą sumą wszystkich transakcji (bill_amt_X)
+znajdź 10 najstarszych klientów i narysuj tabelkę w której będą znajdować się tylko kolumny: limit_bal, age, education (po nazwie), oraz nowo dodana kolumna
+używając matplotlib narysuj w jednym oknie (subplots) histogram limitu kredytu, wieku, oraz zależność limitu kredytu od wieku
+Dekoratory
+wzbogać klasę Tree o dekorator @property do odczytywania najmniejszej wartości w całym drzewie
+Zaimplementuj funkcję do obliczania kolejnych elementów ciągu Fibonacciego w sposób rekurencyjny, zmierz jej czas działania używając biblioteki timeit, następnie użyj dekoratora @lru_cache, i zmierz czas ponownie
+napisz własny dekorator który zapisze na dysku wynik działania funkcji i przy kolejnym użyciu wczyta go z dysku zamiast obliczać ponownie (mogą to być obliczenia na tabeli z poprzedniego zadania)
+* dodaj argument dekoratora decydujący o formacie zapisu (pickle, csv, excel, …)
